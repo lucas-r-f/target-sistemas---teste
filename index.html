@@ -1,0 +1,38 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faturamento Diário</title>
+</head>
+<body>
+    <div class="fibonacci">
+        <h1>Verificar Fibonacci</h1>
+        <label for="numero">Digite um número:</label>
+        <input type="number" id="fibonacci" name="numero">
+        <button onclick="verificarFibonacci()">Verificar</button>
+        <p id="fibonacci-resultado"></p>
+    </div>
+
+    <div class="faturamento">
+        <h1>Faturamento Diário</h1>
+        <label for="faturamento">Digite os valores de faturamento diário (separados por vírgula):</label>
+        <input type="text" id="faturamento" name="faturamento">
+        <button onclick="calcularFaturamento()">Calcular</button>
+        <p id="faturamento-resultado"></p>
+    </div>
+
+    <div class="percentual-estado">
+        <h1>Percentual por Estado</h1>
+        <button onclick="calcularPercentual()">Calcular Percentual</button>
+        <p id="percentual-resultado"></p>
+    </div>
+
+    <div class="inverter-string">
+        <h1>Inverter String</h1>
+        <label for="texto">Digite uma string:</label>
+        <input type="text" id="texto" name="texto">
+        <button onclick="inverterString()">Inverter</button>
+        <p id="inverter-resultado"></p>
+    </div>
+<script src="index.js"></script>
+</body>
